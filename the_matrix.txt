@@ -1,0 +1,20 @@
+The matrix
+
+eigenvalues : [1, 2, 3]
+eigenvectors 
+v1 = [1,1,1]/sqrt(3)
+v2 = [0,1,-1]/sqrt(2)
+v3 = [-2,1,1]/sqrt(6)
+
+matrix = PDP^(-1) where D is the diagonal matrix with eigenvalues, and P is the matrix with eigenvectors as columns
+
+1/6 ( 12       | -sqrt(6) | 3 sqrt(2)
+     -sqrt(6)  | 15       | -sqrt(3)
+     3 sqrt(2) | -sqrt(3) | 9        )
+
+any general vector [a, b, c] can be written in terms of eigenvectors
+
+beta_1 = (a + b + c)/sqrt(3)
+beta_2 = (b-c)/sqrt(2)
+beta_3 = (-2a + b + c)/sqrt(6)
+
